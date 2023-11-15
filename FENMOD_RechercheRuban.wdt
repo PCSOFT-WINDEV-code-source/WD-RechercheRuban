@@ -1,0 +1,960 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FENMOD_RechercheRuban
+ major_version : 28
+ minor_version : 0
+ type : 18
+ description : ""
+ subtype : 0
+window :
+ name : FENMOD_RechercheRuban
+ identifier : 0x219b7ca9e49518d4
+ internal_properties : CAAAAAgAAACGNqteRyqbZyTdJQTRWU+6VleXCIXZz8WR5tsan/rO+No82UCiLStHuC9QJwFP8EVkrOWuscQLNflYCL2dRjpH0MNHACiRWjR4nXgx3s9PYCWBE5yNmkHoIy075SqEqlBd8gYSrNuuWYVD7OrdRlWpbAZR/CRbySyG7Dste1ss2eSz4pIkOrU9WFG5s4ywkoIuNvdhYty+i5RcDiGeuRdHlLNrYbFlVTIvaj0bwW8yyCLpNrXKftpjynNk1FtY1rqxDGTQSFVNZ7T5LBz2ErffF5gWJrfPjQEZHlqJwuKFqzND26KS4XLlMh2e3ywhR/E4fSv31YEd5A7T3kfSakspLtteLTKtBhm4HVJv+NxcNptAEzirru4OJ/6cTLlrlLpAG/ukspucoszN9x4tqzie11ux+N8WRnleDySzVxyAayedzlQxSMuF+WHYuteJmstyNMKD25T5l0G353yfKYTKxtLXhgHbODEzU0EK0xcDdlYApKMZiuybDD8oXmtGJZOhDDGogd6Zs5usNjno3hb0MYdPxQzvUA7I79LA/MU0DgZ0gHOmhTvuPN6qQwNT+gC3IVmaylvQjP5MIU5aCliBXlLdY95fEzkLxRDdzLbZOUhKxy2C1UcHrI0ow6HTMlM84XBVDPu0lzmoipWGvOohGdqG+SzWu0y1c/aCcl4lan095tXhBcvlmSAPWZ5qJ6pGuhEU54gLvXpvvKw3zB7v6JB8vQXDc3MsXkIy+XF5OudgXONuY8Ps2l65Q6fQciIUw3srDGRgxK4=
+ properties :
+  width : 786
+  height : 594
+  widthClient : 784
+  heightClient : 562
+ controls :
+  -
+    name : IMG_FondRecherche
+    identifier : 0x219b7cd3e5c4bd1e
+    internal_properties : CAAAAAgAAAANdvxEJXZzv4Qa0MpyFCd6f+RUwAcMm0ArJBxFQA9TATWMRprgafoI9iD5qN2pYJSPKlXCmvOmPzKwsQQ7WRpAGxHMttJo5AeGDDbbtbaQ/FIrLY0haUgoDS5npJ7D6Ve/x4GahN0d1JZScCb1kBP7qEU059jXuNOzuVDXdlkq18BN1CoPmctW4ux+zKz+SN9Ngh4p1BK/JZNahaK9uVsRAIIgK9MC7hXG+c+82I/lnMOsGtI58UttOLYcQ8PqB9WaJUpgor9s78no7mLNk8gVbnQ+eL3ifhItX1pplQdwrgyvGQAS0RC4QCfACs/AIswzNqas/D/qjfcNOICMbxDErT6upTevlNNJduq3QCbTxfgaDuGEphvgz4FabMgCOFXn6hYXkknc1bVOGDxvZwlr5i4vJ8v2kgHxwJkF8rUUKrOThGmO3wlyYwifhwspl9wesvbIPPkiGeKJZ5frk0PTKLvtw3o2oQMs9HbcpEhfBs4niaTMBL+Sxcfi2PIU3eDWDgrtz7JFgmhb8/86b4wfHhnjtHtxF2aj3htayiEfTKIrhSsNITuHyiLQJZ+Eyh3yhtSAIGusWdGhPHBOQ4puBG+hEDmo8GXt6dy8U0rel+QsWFGai/E50ampZKxhShTRAlJoimNaiIz9H5ri5yV4UQ626+ZAuWgZVwSUN1vH9cAc2eiQX4dYKb54OJQYL3cP0RLe3KMs28d+5UW7errSEbtTmfLp
+    properties :
+     y : 110
+     width : 785
+     height : 105
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Repositionne sur le plan par défaut
+         MoiMême..Plan = 0
+        type : 14
+  -
+    name : ZR_ResultatRecherche
+    identifier : 0x219b7cd3e5d2bd1e
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 137
+     width : 772
+     height : 72
+    controls :
+     -
+       name : LIB_CheminAccèsChamp
+       identifier : 0x219b7cd3e5d6bd1e
+       internal_properties : CAAAAAgAAACIkrI2mmZE9sx6si01FemPv9/apLJtbnOjUvuX84iFzTnWOlIXHtO09h8rKNeAyeZnpQ3/+t6OeZtdzv2ZEaPzas79Ucyjr+Iqo48OGkwWwXCIeSLmZ9ND0xCnZbw4CzHKKgg6bEkf/We2fahDspZ0bJHM0tSGASjkr+yd7qDMDN8uPX7HSOFdadXqSAIV2uTmMdtIsyw+5mTiQEGfmGTczDw/DMAgwDU4os//xevGlk/PcYKr/WUm3alNcn5/32C+Gx4DxhkUyQ2k965beuAYIt7BtLHPOvayUcKHq76Dx/d0sLxPlD+3OX8j5IFfjcrV6S6EQKNLTah18HNTRz/WHqoGQ10jLiFkTXEaaDvU5UQgMWpyTs/QMrkLVY1UBi9xU2nS8yLkep+qd2KgOzwnrUh3+iSsGRx4pDG4Jb8vQYnvw7YMfUeBgUi1kwV9C5UoUA6vxaeoXxFMwSOX2GoHRVgcruKj3DLCbUhBuuGWcPxHwvWmyO+adpC003I/v61xR4DSCPhRCq/HUk0=
+       properties :
+        x : 6
+        y : 49
+        width : 743
+        height : 20
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_BulleAideChamp
+       identifier : 0x219b7cd3e5d7bd1e
+       internal_properties : CAAAAAgAAADT5XXaeHGSZbZ2Rs1fskIAbXC5f8XHBuvi7R4B1kzQWrHCeQh7w8+ODq2jvUG+mpJKsYYM+CCqRynyFY6TBLwmYi2H6TcWMwFVVDPIJ76j6F1p3BPiMriUXBhshVx3eDYtFBZwfyXx5TaF5B5BJtqHMJYdKnWi2B0SAKY4DclFfaozRtvqEVyuc2cFkXwANAlfV8m/6WjN2M8giv+a6nsoOOrIGeAiWDM3JrrQfU/taDgYq2yOyP4c/ISlg24smk2+3iMYGyZtKIjrLKo+OdeEinM0Esp9PE7pk3PooDf2g1NkwrdJgGmfF+1uqdgtmDkFRYEavlvl7VN2vbnwRM0PnlI4abDhG5X9TgB686FFw7cxnE/CthxLsO91kwRK3NetV4eP1u5xcGZBRxzgorbUDLUMIhWJlCl8o6MIMTtD1U1954n/IaTexyQde2VGvZcDLz7m6Pme9UAj6cnF9VuYIzYF7gkMLCioYeKzafc0Cha/jStS0TzqqbBRLdk4mX5o0a/qK49yh7BktFC9Eb9F7f/riCb65jEbBLVRfkxWQrkbesjQkyK6pK/dwDT0IGP8X21OSMZZE2l5UG+dl7rEA3jwbg3cP5+cBh82bAW76qB5g9AAomW4aa3oc2h25zzWE0C/BZy4XDi1s1gnOf2OScV+Bz7KOwPdq6Tn5bl+T3GFg59UZitrJ2Xdc1lvQGIy5AGbiDCtfkFuD5Q=
+       properties :
+        x : 6
+        y : 29
+        width : 743
+        height : 14
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_LibelléChamp
+       identifier : 0x219b7cd3e5d8bd1e
+       internal_properties : CAAAAAgAAAAjE9q+dYE9jtAmXiSuczQtZVbq2S1PL4a97EjzM6OUZR1f5JBa2QAQadpTnDMdUr7hbA2Oe14rSj3PTg1DYgeP1rqG2UpmKjKYsFCtlh/dyEXeubws0TMMWlwek/dZImD78Jl9K4O730uyJ4WfgYDf5xaHvmaOpqZ/g+6Q6w+bemQmAPjmCGZ3Qmh638JpxiQdzHV3KrA7T4JfOw3yG/BxxofrUNRdUJThRkzN3MdKVJAoRvZh+SJbkOp4GKRxuTuWY4Alqlhbm556qXcx4gVpcEO7j/LnkZUe/CRd/frsk4g7f0ThD5R5pDx649ahuUxDIczezX4IGPzFG+EUh6/fX9tvgh4Wb2Rt+M04MbLQ+P2KKxUEhN0l/CSM/TXs+RyaaFKRaIH/0YQWUPuArS241iKXJ+Kbmgx2d+hZ7WLoFKbdINjpeIRv3XM6D1Ir/1q/6fMI+eRMrI7KuLXZQHxG0Ul2IlCsJ90WMXPZhtAC5z2h+PsmYwRPZZIW1+YXBS5hT/1CBGGc0Z45zgmFXcw2q/oDHaplC7T/gQhcFq4YlTp5zlYnIflVade77D0XB9EtMzrWBPg7HrtJGvcQPrkh91fqF07ST5hwKUOa+Ui5TRIitrF2o3qIdXfh6GTIKaLgozwJs3D9uX56oIJn4wUFky1clmxRI+Yrpq3GTU2YF3FRUjOGb9u8rjI2oSi2CoF5hbnFSJ/QjzcjmSM9jjQ=
+       properties :
+        x : 6
+        y : 6
+        width : 743
+        height : 17
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    columns :
+     -
+       name : ATT_LibelléChamp
+       identifier : 0x219b7cd3e5d3bd1e
+       internal_properties : CAAAAAgAAACH0ucTXA71qsD0Kl/k9/1F7qI0aNsIXWq9FW3rYoL04xu2YG4Vt6zqZ2/83CrZcr8lbMv9kGvvl64BETlWnVMsKSJaxOOSAiLkZe8xktHaIBrwSAmlQm7M2iwz18oduDco0U4PucHc3EYo3CfTFfOq8JzjshDYuKz3N/aVxdv2BCiKgg==
+       type : 3
+       content :
+        identifier : 0x2543d1da034bd72f
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_BulleAideChamp
+       identifier : 0x219b7cd3e5d4bd1e
+       internal_properties : CAAAAAgAAADMHyQFdHJML4Zhb7gER1B3IjC7ukAFhRzGPiJ4X481H0CPXLb5Nkyn1MFLFdjB8Ycf01N7JYTbspQxBabsfSO+/CxeGPLOp0XRA+UF233j2kW1ylNWIK1JhYCheQM5kctVTMDjjGjjkc1oWCOfoNFNPowzlu5Xrml2C+a4pAcumqMuzao=
+       type : 3
+       content :
+        identifier : 0x2543d1da034dd72f
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_CheminAccesChamp
+       identifier : 0x219b7cd3e5d5bd1e
+       internal_properties : CAAAAAgAAADLY91tZhc8O1zMJ01oXL0o31Sd93u5q2OQJhRmKdwRrC6g0Hk7Kk+kN0egMEYEO4piAXRABQHRfT0gWw67pPWsIgqvuh94G00oIDX+sOdHulPPsX3vLtlJdAVzlB5NwedTPtPTn++IyEFCHW0qZ3EzYJp9y2jYJQI0x5GYOpm1WsHSTwjknw==
+       type : 3
+       content :
+        identifier : 0x2543d1da034fd72f
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        code : |1+
+         // Repositionne sur le plan par défaut
+         MoiMême..Plan = 0
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         // Récupère le champ associée
+         stUnChamp est un STElementRuban = gtabElementsRubanRech[ZR_ResultatRecherche]
+         
+         // Positionne les éléments de surbrillance
+         _RechercheRuban_MiseEnEvidenceChamp(stUnChamp)
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        code : |1-
+         
+         // Récupère le champ associée
+         stUnChamp est un STElementRuban = gtabElementsRubanRech[ZR_ResultatRecherche]
+         
+         // Cache la zone de recherche
+         RechercheRuban_Affiche()
+         
+         // Exécute le clic sur le champ (si c'est un bouton)
+         si {stUnChamp.sNomCompletChamp, indchamp}..type = typbouton alors executetraitement(stUnChamp.sNomCompletChamp, trtclic)
+        type : 66051
+  -
+    name : SAI_RechercheCommandeRuban
+    identifier : 0x219b7cd3e5dcbd4d
+    internal_properties : CAAAAAgAAAAvJRDuhFBIB40tmuhJerEn8jSeQDX2JLJG1jvfTXb4njuCM1ABh6okpM941p5n07g8hBNmvP9YaVUazvIZmS7+P63omuSZV5CxWSEETNVlcH17KWvA6+mXu9TT083W8NokplCPrtk7O3xUV89pNvukcdWLXJzC5I6DiAvE3NR+nFbVgq4/kHI2i2QH5U0TmUZA3ZUToH1j7Kf2pBUX8L16kTAEixeSXWJYSLfuwzZGaQLBj3MXvR9ydNdm//hWhbAhX0X8yQ4qZkEZlzgaY795grdLhiNveZK9tMsb+MzAiGGVAoiwnxNBGv6ZuMv+N9jz0NnMYD439CjrflsxOpTxNzSQg6ewrMFmrV7bHZHUc0zPhjuoTKFNjEYfCCI6gBOmAfKYEELnbtJhVRPWkn0/C4jkoWyVE29R62dxGOJ3P+CpzH5gCSkJDVy3o+z996V4JTMr+vdVC9Wk4bkU8AgwZExGspebvDSSG9FiiW0GpXbbM9G+kzxzY17QMPIqzAw5tB3Dko6m3iUWHqZGsBK7mBoYvMs3B3SiVuoxQ8lhtqQ9vhTaxRX8TQol58f/RWN1q2BbQXpgLvrjLe9Fm5h2dU+ubXnWlz0eoNxXH2QGj7G21NU7vWQsdtn/tY/33ocCUR30CthTTK9u5b3ecieqk/O2xyit2dZugUvIibnrNjXu1Pwzoh55QstIBQXpp3ob/AiKcRcA3eAAotiKlE26I3oN36zqY1/ilAsxZN7gT6ODxjMR086xYR8RHI5atACJrUpda1wJdqeRR7JPdCLiyutbPuzR1gJGb1cUln7METjLznRCvTSGfhaJS0ZboE+mwNQtnkwI+oXQXJuO5EhtA7iDrgKpzPHrUEMdxVXvq3Mb+BSPaA3Fx6eUbEMiMTQvh4R2ZACQbUN9KnsAVVh61cyY+RJrVK+hTgbLjL1o8VlL8kGMzplBKOQGX55cR3OItgifqbwnKTKL5gCpomQ3YJttBVBE7QcyTU/Siavf8eLmHcK9hX/RAGMFMfvCFvqcls9eE/0+4CQCmvF688oKIDAHl+PYqq/P0KpNRzOvfhUykmuiSE8hjDsMDF8UfCBkN9Fn72PdLu9pK24qDt5MEfL2Qs/BsbJhufVobiZtHOr1tpXZVIF62ICgHMgVuISvW/pghCKxgh3UewUEvbkSIBznCc5oHZEqvYifOCXF2OgBZYjk2KRkNeCBEng5YjKSktaxITMfOupUrwc/aOGGXdzLIFvsyqHoBMBvNoJEzS2B1P+Uzqu6dxV8GtF1FE01+RCf1G9smxFRSW6IvH8iQ5HYMby06Y+yWfWefZURcBKDQWYkP507MUxz7OsNtNkcW+dQnXOlSjWci1DPQHCd3HB/TGhAd6cj8Avm4vch/b2SoPH+L01uZNhntPb2SDT07h1ke59ENfOWevuSNl+ew+4tzPTAcMhw+GlrpEuCcpLEyymhEI2UJlbSnbUbgHZNyNJPVq5iQviuUOC5Cfp4UYR7R66NVc3n
+    properties :
+     x : 6
+     y : 112
+     width : 744
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         // Repositionne sur le plan par défaut
+         MoiMême..Plan = 0
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         // Stoppe la procédure de recherche en cours
+         FinAutomatismeProcédure(_RechercheRuban_AfficheResultat)
+         
+         // Relance la procédure de recherche
+         _RechercheRuban_AfficheResultat()
+        type : 17
+  -
+    name : BTN_FermeRechercheRuban
+    identifier : 0x219b7cd3e5debd5c
+    internal_properties : CAAAAAgAAAACNQZeWGvvWnQHdWVT34Xx00G4huZ2pIKz52TvpeNxEvsLHa1oupKwLDdxS/OFcdh+1Hv1HhhVfR8zTTk/qbnJijtw3v1bcUaZ8BCtuq6Hy0bUAWXBxExdXecnBD6W2OoloXp6Ag29Sn7n9ogqHFvoYSLaBMJBz9Ch5U/eS+tqgPhy+6MW52zNnKp0GvGziNbs8Qedd4V36eS/LOlfzvO3VDDj3sk0k55bDFHFIZzmYYhdWhbuCzRR7r32obbB+reFGYVgy1evwspcEXrx8BJgtgLjVR+bqLlll17Bn70YXUfTPchmDkBHSc8O2d/P3Sgk34pV/wm8WJAbx+k4og6LljmAF7oYyu1OwUniY4Gezq+Rt2qBMeoyccnxv+TxLzBrt6rL7R/mD0mfbR1+xRpsEastmZq/qh/36RyljP5iGkwBk4WkjPPsqUpAXqO3sswZZAzGqis1UJWx5sl/AfNade6ILbe9F0bc61aZ29RZ/7sXyjgonWdIcMzASenOG4MIi2wLMkFHEk2D/nnE1oQtjeNVOt7Pos9iU6iqDNgVcjeoTCiwQlvUgV902S9OBDPv5jMjHcsF1HW4xjZQRdpDgNAE/mCxh5i54wHjt1Ps8N7b8RQuIinwbcBZ4ccR1O4o+S5T5zLtgvjWJPz7DxBNE1z52UHj/RIr3nAaPF9QW+PAAhXsZX4HxAD6RQ+UbOXooIeSmzEi0ZMW/Sp+R2bzey8BXEp/03Nv02Cx4Y5DMijDRt3HZvzuBo4L2SeO1taA0LttjF5yyArR8650E4m5tNvJIK73lEyAn7hQ8DsNI3jPU8WioGypRtAbJt6OYaOZH+UDZvlXWhubt/QFbydtGNr5kaU=
+    properties :
+     x : 756
+     y : 112
+     width : 22
+     height : 22
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Repositionne sur le plan par défaut
+         MoiMême..Plan = 0
+        type : 14
+      -
+        code : |1+
+         // Cache la recherche
+         RechercheRuban_Affiche(faux)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_ImageVoletFinal
+    identifier : 0x219b7cdee5e3e749
+    internal_properties : CAAAAAgAAAAHC8WKnfplvienLD7MnLgN0S8Z3F49wu7fgyutNIoddFOT55XNcKJamZHoywREtQkNo5hikIdGPJlvCRSOdnwaQ1+NFByxfJL6NwuXgrT1bQCMnswzOnfnXNYJASyeK1m8Qh77Rp0F6i+W3kEHQtCjgcTkUYtpSYe7PqkQhTLaYes9oVQGvxZCQNblZYGjDH5KWBFJN7IuFhv360s0NRzdpUNFQ2zG7ViL+Dh0c8HG8eOwPr5fy/6ysDgHFvUZab29nPD07W76W6ULXcq32QFuqy/Xy55i2vXvCjLZyKYUQbrgg+8KsDdOLUmxkzIWfVOJ63ikuhy1GcX9LcTLDl/ijAujo8T/UZmHa1Bslbk73Kndvn+sYw+Oul8E+mITRUqHyjwvSTQj9Hik2bz2AzzyP7ve3rPdcElNjbar8nkCpEgUnrLbCOYIsqo/k/C3jxTaOH9VgRuZcebBjNdsA4jRl5Aa1y3MtMsBs7s5TQKsVoKgTZ3VjYiF8sOdvGmKSzVyxqAKrt/M4/tLuKmV676JsRfKvjJP5JDfjIHSHdxxhZ5eo0KCuMBp7/JSNbO1BjmsEcFpGTZ264knXNGtQasCmJVCVkq9GHlsnwI74lZtbNCQk3pEY9hF/3RxoC9/aL6RuivFLNQdBKTT6NJiS2Mzs+NoAR5lfo073ZpiGN8PYCJLhzi9b0gcSPJxeYrEgzW7NJZ4HPw9IvsqGAQYlGeTKIm3DYdPZteNRRufDqs6NcuMxFE77vSnCFfQY+ffbhvBtV2LSyDYccit98FSAUvB7HBeU3ULF+SVkffCuHERni/rtrwGAsjdyBdJsWqtF5+0pdVtEBJgXvbwMkrnGoYSjSnqeLmnJTxFTSvpYM+imEtmp6ae
+    properties :
+     x : 837
+     y : 56
+     width : 103
+     height : 20
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : IMG_ImageVolet
+    identifier : 0x219b7cdee5e7e749
+    internal_properties : CAAAAAgAAABKXKJvAM+qfWZm7fmLW/vIjNg+eWnKP/U2sjg8sw2c69IQYBJM9S/VZAx9XscD9MjMYNkj10AHc1iuRlfNtT+ljohCQefqxUkhzvA++RdIgGvBSwH231Seu3Wu+PPhHnzfr5NMMeoyIXbNnwDGgRdiQP2NRiLWzpoOIfK/8P3hWCpy4pVNkD85761KjBimg/3J2RLGNrcjqR5qNJafoO9IYByqJEfL6tuWsw2bxtBxTFble+OSqBOZTzfUoUTo2MzszaGFFIvHdsAmBtHScFjVQpTI0IXf51DKtdc8Gla+UCfVakij36xjAuzK1I9h9ErGHANti/NCDirA2vXcnSKVueRqrHG6Ek7UTr0hyuTic6ZmlWhdgkwXN+q9gxuKmLV8f8MQaouILV2nmiXXqwTyPyvmruslMIEldbaDAlli/NCM/vp72B5YgsrTD3zDQ8hOLLOpXWdtVYKtgKMI32zF62Q+C9kY+I/dj9uDvXTySvYWG0dtCwoVQsPt6n2AHWUSYOrwErGaJyfX1Dd5aTCJof3ImFpNZhAfrIHwcWrjde4kGQCemq5VW94Oc/czwPHky0ufneip/ZyKP7ZKpM6nP7x5r+MkAWAHem0Qv2lQ0bd/ggu18ulUzgOA0RhmA1sMvSbaGSfqU/fm+0efDibwzgYL7iMYq7gWeCUf3RpKneEKxnl+rglfjwkYEmMbKt7CsxX5nXM2HebFozFNTyJIf+AelgjOZ9aMxJqYB6LNyn6/967YCYk6nz43RIA2kTj8aIjQ8Hs91G8EXlorWPJqNzuRoDpOVKNU0LYD+TDQ3+4qdX1HwYkcC6rcJucgmhwzJFTukZHh4XV/QXvQAZknoMQNRe5q4nuEDGqqIQ7tZbbJAttr
+    properties :
+     x : 837
+     y : 30
+     width : 103
+     height : 20
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+  -
+    name : IMG_DégradéRechRuban
+    identifier : 0x219b7cdee5ebe759
+    internal_properties : CAAAAAgAAACPo22itYJdxv8PhFY0dBC1aZdxJEb1iibn+7PVrBKFzLsrb21FmBriMXnAY2w8DbEl61CKuB/OtGHnUVzm3qQy6zd17JQ5dJryPwOPSgwtNfhU1rR78j8/5M5RSYQGs9EE2saTXqX98sd+9rkv+mgLGUxcOfOh8V/D9jH4PbqimXNVKSz+J65KeN4dXanbJKaigKnxv8qWruNvsxPs/aSVrVvtG6SuBSDjINAsG5k+udt4lgbHI4aqmFBvPs3hUVVltPjM5XZSY31z9UJfcdlWwxfPU4Z6wg23QnphAI58GaLY60dimO+WhfFJ6zoudVvBEzDMYlT90Q219YyDFkf6dCOrW9wnqUH/MwgkPdHTBMHFlif0OzfGQpdMArpbjQJPgmRnAdwbnJAMcZQOU8xSj9uefpP9wIk9DfbbIpkitGhkTmKLWOZ4svpXuzh/R5xSMBfdOaMxmd55xL90a+CZz8jSv0X0bBNZW9MhdepE7jrYdeWdxcC9OpvldCHCk/26jviiBod0C9OTcPHds3bBSa9SJtrnfCinxEkKVZQ5zUaGWxq6QEjxZ3rqXZvdXpEE6SnxgY7OQ9H/pIlluTOKAH267qJlwKFEpxojir6FBEgIG+LsuzAdh8zZOIcX0CZ5ogP95BxlzHz7gHrK8zsL65uQaaadtkXjNWJaENcXaCpTnxDVF/BEoJqpARJMey2zLJ5gJPQ1GuNCIDxQTC/bkHGvBZ93jv/l7bMHthNSzWMkbDlD5uyfMA8Y2x+XNmOJ/RVDg+iguQCV78laCUM5ZOjG+93j7zw9yb86MOmZJleT7vTeajBFYH8hmRIVrzcsHV3VuKr49l5ousIf0k5adRHCEBEPjaT9tYNRiLe6sGN+Tw4m
+    properties :
+     x : 894
+     y : 9
+     width : 15
+     height : 15
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         // Dessine un dégradé du jaune au rouge pour la mise en évidence d'un résultat de recherche
+         dDébutDessin(MoiMême)
+         dRectangleDégradé(0, 0, moimeme..largeur, moimeme..hauteur, JauneClair, rougeclair)
+        type : 14
+  -
+    name : FRM_MiseEnEvidence_Cadre
+    identifier : 0x219b7cdee5efe759
+    internal_properties : CAAAAAgAAAC632trzqUhWXYEd92812misxJY4MoG5OnFIxJJNmqzMpMt86zXIFMqUJ0cV4ECIOFE3AZxHCCyPv2xD8dzitYlDpdk2nZ83GMyRpFXGC7Bkv7F7PrS4lVe0WLkDNwvaN9yqqTJjnm4OGni5/RLsjRwKbO++QPi/cVg9fh6xN0IrXAgVs70vBHIvoZ1IZOO5oPp37zDda7oLb3EAwds/hcygtmAuiRgaVREG+rxqPRn0HnHIlAGLDObrxTrtM3Ha+sikyqSyXfbtJjkBdOGZmFDvHWy7c3e84TXIt+CTiIAe1qwYreME5uq
+    properties :
+     x : 864
+     y : 2
+     width : 20
+     height : 20
+    type : 20
+    code_elements :
+     type_code : 32
+     p_codes :
+      -
+        code : |1+
+         // Repositionne sur le plan par défaut
+         moimeme..plan = 0
+        type : 14
+  -
+    name : IMG_MiseEnEvidence_Fond
+    identifier : 0x219b7cdee5f1e759
+    internal_properties : CAAAAAgAAAA6M1gniYIC0qDGuOEc5U1bhGPVny6JfUgJ2HdvZzneoXukwv9qAlLr6vMEx9yM+D5HvdqcuQF2/w+XjUdOpSmTWF2rKAsuwhM9Oa2PFgUlkjCo51CJpSJWyBd7yzBloBvOC26Hd/URKZF7sZw6cZCwxmEpSB8l3axUmuJIFnWy/FQwFwVb2psacEfluDo//S4CTApIEOgdeM8+oSbkSMRDLIWvAq0XaFfhQCBzS/9D4qOHEeBpF+cQ+qbsDq95NHEWGXb8fQtvYHRumAyp/ChlS/s5svldbOmJHY0DaySp4OPaVY+Z5jmOdXnJc5blE2jQAmAzULnLA/oMl2sSxyB8bQ9Y3KU1ybyADgBvTI95D25J+yFAwhR8QZLqz9dSsXLzmS0rCjlqmhMuWRJpgGegHHzQ3RSZqOCltdj6uLcNWHSIV5Fr57bigkLmx03OmHdic154aEmTxnkQVwO41B3c8pV8SAjA96Le8BhvdJ5v2Egl4r//+G4/o38EgHsSeXYWJg04Lkw9fXhfda50s7wdMuhGW6i3QAtARDrf/zdN
+    properties :
+     x : 837
+     y : 2
+     width : 20
+     height : 20
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         // Repositionne sur le plan par défaut
+         MoiMême..Plan = 0
+        type : 14
+      -
+        type : 18
+        enabled : false
+  -
+    name : LIB_OuSontLesChamps
+    identifier : 0x219b833c0235c75b
+    internal_properties : CAAAAAgAAADlXHpEkI3faVMNN9wU4NcG2Wxk44WEEPPnkvBVjwvtHvYN5LWh3cOLUHmrNqA4V2an4tTSJeoasHHJqH+ARrOvSt+hCkPnUUNWuiLKQeD8JVss2htjlH0MYSfNHNtSWV9syfbDinm1hL1wZ2tf97nBGiy/v6rqqwdorgrxTDiR0tn+TTdCYJDoNA92Z84kM7qzFeI0P0Nz83X8exvlr5I1mqRHlMJw4eXBFOQ0BVph0KFp98dtcEwJOukCLy48znbcWAzYwzlyKFNOBzNqRsF162pbyEEul3sTsPIinXW0o2Iv4AX7/RLGqj0ZhKyvskSKBbVTbRfmy2B9iQvuQ1MutaIS/CO/prwGJpGq8q05yscbOr9t18ClVq2KgM/RYbQ9fwJG/96p24nbmspIQbWYJ7/UhmAOMXTGGjUMcQmr2s11OjrPRAH72XIhgBqy2lni+J4aRoQBRn5hMPo1Oi5FlzDK8p4+kFQKsd6vR0rpdVzDs9xJkMtAz5nA7YNiZreirZbEfhNg5uXOO5cE7Bd/veUR2yZFt3FFd3IHB4GlJ78r6OYri29Xviln1c5FfzX61K5gxanwsi0qg3O1eQI+6rr4P6rkN1rbe39V8DXuZHNMAnZUVZ5lafajFLdb/dVVCzKtYH8=
+    properties :
+     x : 6
+     y : 6
+     width : 772
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAABTJUUdw9Q+BtHadziMh1Y/sSvePIaX9wtZ0MvGGEXpOQtmGPjV8nVxUokf5gxym3yhnMjEhroh9bVcH5CtA/9jSoKD9pbLYzUfUfknq31BkfB6Qxq/rlVEj+dMRwz8TL/eev6UM8q9S+t+r/Q=
+     code : |1+
+      
+      EXTERN "WINCONST.WL"
+      
+      ETypeElement est une enumeration
+      	eltInconnu			// Elément de type inconnu
+      	eltVolet			// Volet
+      	eltRegroupement		// Regroupement
+      	eltChamp			// Champ
+      FIN
+      
+      // Structure qui contient les informations relatives aux différents éléments (champs, regroupements, volets) du ruban
+      STElementRuban est une structure
+      	sNomCompletChamp 		est une chaine						// Nom complet de l'élément (regroupement/champ= ou numéro du volet
+      	sCheminAccesRuban 		est une chaine						// Chemin d'accès au ruban (texte préformaté)
+      	sLibellé 				est une chaine						// Libellé de l'élément
+      	sBulleAide 				est une chaine						// Bulle d'aide de l'élément
+      	sTexteRecherche 		est une chaine						// Texte utilisé pour la recherche (correspond à la concaténation du libellé et de la bulle)
+      	nIndiceVolet 			est un entier						// Indice du volet du champ / regroupement
+      	sRegroupementParent		est une chaine						// Nom complet du regroupement
+      	eType					est un ETypeElement					// Type de l'élément (volet, regroupement ou champ)
+      FIN
+      
+      // Variables du modèle de fenêtres
+      gsImageVoletInitial			est une chaine						// Image initialement utilisée pour les volets du ruban
+      gsNomChampRuban				est une chaine						// Nom du champ ruban manipulé  (cette variable doit être initialisée dans la fenêtre qui utilise le modèle)
+      gtabElementsRuban 			est un tableau de STElementRuban	// Tableau qui contient tous les éléments d'un ruban
+      gtabElementsRubanRech 		est un tableau de STElementRuban	// Tableau qui contient les éléments filtrés
+   -
+     code : |1-
+      // Charge les champs du ruban dans un tableau de mémorisation
+      si _RechercheRuban_Initialise() alors
+      	
+      	// Cache les champs de recherche
+      	RechercheRuban_Affiche(Faux)
+      	
+      	// Capte le clic gauche sur la fenêtre et les champs de la fenêtre
+      	Evénement(_RechercheRuban_ClicGaucheFenêtre, ".*", 					WM_LBUTTONDOWN)
+      	Evénement(_RechercheRuban_ClicGaucheFenêtre, MaFenêtre..NomComplet, WM_LBUTTONDOWN)
+      	
+      Fin
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : _RechercheRuban_DéfinitImageVolet
+     internal_properties : CAAAAAgAAAAcwz07LCCgVA5ucVH78eEn1NoVbYZDV/uF6/FonUbL3/cO44Bm8Zvltt+OEmpq09Quho9tV1YuMpZOuDOveiGIDQpzWpnttCDdqclKS1f7my0d5C4q2ZoeTT8KnyvXT526lBx0lUAAaMWbBjoGxxHRTbVMaRosp4/OiPLvDdSZfg3o8c8AekJZKrEPIB/L2QDNWVJbStA28k43XfFXFV8=
+     procedure_id : 1268745141815762040
+     type_code : 14
+     code : |1+
+      // Résumé : Crée une image de volet à partir de l'image originale en appliquant une couleur
+      // Syntaxe :
+      //[ <Résultat> = ] _RechercheRuban_DéfinitImageVolet (<nCouleur> est entier)
+      //
+      // Paramètres :
+      //	nCouleur (entier) : Couleur à appliquer
+      // Valeur de retour :
+      // 	chaîne ANSI : Chemin du fichier image résultat
+      //// Traitement automatique des erreurs : RENVOYER Chaine vide "
+      //
+      
+      PROCEDURE PRIVEE _RechercheRuban_DéfinitImageVolet(LOCAL nCouleur est un entier) : chaine
+      
+      // Définit le fichier image temporaire
+      sImageTemporaire est une chaine = fFichierTemp+".png"
+      
+      // Applique la couleur en fond de l'image finale
+      IMG_ImageVoletFinal..CouleurFond = nCouleur
+      
+      // Recopie l'image du volet dans le champ image
+      dCopieImage(IMG_ImageVolet, IMG_ImageVoletFinal, copieSrcEt)
+      
+      // Mémorise le dessin dans un fichier temporaire
+      dSauveImagePNG(IMG_ImageVoletFinal, sImageTemporaire)
+      
+      // Fin du dessin
+      dFinDessin(IMG_ImageVoletFinal)
+      
+      
+      // Chemin du fichier résultat
+      renvoyer sImageTemporaire
+     type : 458752
+   -
+     name : RechercheRuban_Affiche
+     procedure_id : 1268745141815827748
+     type_code : 14
+     group : 4
+     code : |1+
+      // Résumé : Affiche ou cache les champs liés à la recherche dans le ruban
+      // Syntaxe :
+      //RechercheRuban_Affiche ( [<bAffiche> est booléen])
+      //
+      // Paramètres :
+      //	bAffiche (booléen) : Vrai pour afficher les éléments, Faux pour les cacher. Si le paramètre n'est pas précisé, la visibilité courante est inversée
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE RechercheRuban_Affiche(LOCAL bAffiche est un booleen = PAS GR_RubanRecherche..Visible)
+      
+      
+      // S'il faut afficher les champs
+      si bAffiche ALORS
+      	
+      	// Affiche les champs de recherche (image de fond, saisie, zone répétée, ...)
+      	GR_RubanRecherche..Visible = vrai
+      	
+      	// Exécute la recherche (par défaut, le champ de saisie est en mémorisation et contient donc la dernière valeur saisie)
+      	ExécuteTraitement(SAI_RechercheCommandeRuban, trtModification)
+      	
+      	// Reprise de la saisie
+      	RepriseSaisie(SAI_RechercheCommandeRuban)
+      	
+      	
+      SINON // S'il faut cacher les champs
+      	
+      	// Cache les champs de recherche (image de fond, saisie, zone répétée, ...)
+      	GR_RubanRecherche..Visible 			= Faux
+      	
+      	// Cache l'image et la forme de superposition
+      	IMG_MiseEnEvidence_Fond..Visible 	= Faux
+      	FRM_MiseEnEvidence_Cadre..Visible 	= Faux
+      	
+      	// Ré-applique l'image initiale de volet 
+      	si champexiste(gsNomChampRuban) alors
+      		{gsNomChampRuban, indchamp}..Image	= gsImageVoletInitial
+      	Fin
+      	
+      FIn
+     type : 458752
+   -
+     name : _RechercheRuban_ClicGaucheFenêtre
+     procedure_id : 1268745141815958929
+     type_code : 14
+     code : |1-
+      // Résumé : Procédure appelée lors d'un clic gauche sur la fenêtre
+      // Syntaxe :
+      //_RechercheRuban_ClicGaucheFenêtre ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE PRIVE _RechercheRuban_ClicGaucheFenêtre()
+      
+      // Si le groupe de recherche est visible
+      SI GR_RubanRecherche..Visible ALORS
+      	
+      	// Si le clic a lieu ailleurs que sur la zone dédiée à la recherche dans le ruban
+      	SI SourisPosY(spfenetre) < IMG_FondRecherche..Y _OU_ SourisPosY(spFenêtre) > IMG_FondRecherche..Y+IMG_FondRecherche..Hauteur ALORS
+      		
+      		// Cache les éléments de la recherche (l'application revient en utilisation normale)
+      		RechercheRuban_Affiche(faux)
+      		
+      	FIN
+      	
+      FIN
+     type : 458752
+   -
+     name : _RechercheRuban_MiseEnEvidenceChamp
+     internal_properties : CAAAAAgAAACoA/SPRAY1odiYByFm1DvOSTZO6qZhXQbaLBSRwSq6O4xJ68qpNGAZEmpGWM5o6d7aotbjJtg1UxKenTasboShufqonAioLx4wSKLbo2iH7J0S8tS06XYFgyDLK+YLa9JCgZJy2zzAa7869Xaff0Jv+E5U1fOkb5RflCPfhJRUiWm741FiXYTxnwyuFitvih0vxyXYS0A=
+     procedure_id : 1268745141816024512
+     type_code : 14
+     code : |1-
+      // Résumé : Met en évidence le champ, regroupement ou volet du résultat de recherche sélectionné
+      // Syntaxe :
+      //_RechercheRuban_MiseEnEvidenceChamp (<stUnElement> est STElementRuban)
+      //
+      // Paramètres :
+      //	stUnElement (STElementRuban) : Structure contenant les informations du champ à  mettre en évidence
+      // Valeur de retour :
+      // 	Aucune
+      //
+      PROCEDURE PRIVE _RechercheRuban_MiseEnEvidenceChamp(stUnElement est un STElementRuban)
+      
+      // Le champ Ruban doit exister
+      si champexiste(gsNomChampRuban) = faux alors retour
+      
+      // Positionne le ruban sur le volet
+      {gsNomChampRuban, indchamp} = stUnElement.nIndiceVolet
+      
+      // Cache les champs qui permettent la mise en évidence des champs et regroupements
+      IMG_MiseEnEvidence_Fond..visible 	= faux
+      FRM_MiseEnEvidence_Cadre..visible 	= faux
+      
+      // Si le résultat à mettre en évidence est un regroupement ou un champ
+      SI stUnElement.eType dans (eltChamp, eltregroupement) ALORS
+      	
+      	// Superpose l'image de mise en évidence
+      	IMG_MiseEnEvidence_Fond..Largeur 	= {stUnElement.sNomCompletChamp, indChamp}..Largeur
+      	IMG_MiseEnEvidence_Fond..Hauteur 	= {stUnElement.sNomCompletChamp, indChamp}..Hauteur
+      	IMG_MiseEnEvidence_Fond..X 			= {stUnElement.sNomCompletChamp, indChamp}..X
+      	IMG_MiseEnEvidence_Fond..Y 			= {stUnElement.sNomCompletChamp, indChamp}..Y
+      	
+      	// Encadre le champ ou regroupement
+      	FRM_MiseEnEvidence_Cadre..Largeur 	= {stUnElement.sNomCompletChamp, indChamp}..Largeur+2
+      	FRM_MiseEnEvidence_Cadre..Hauteur 	= {stUnElement.sNomCompletChamp, indChamp}..Hauteur+2
+      	FRM_MiseEnEvidence_Cadre..X 		= {stUnElement.sNomCompletChamp, indChamp}..X-1
+      	FRM_MiseEnEvidence_Cadre..Y 		= {stUnElement.sNomCompletChamp, indChamp}..Y-1
+      	
+      	// Affiche les champs qui permettent la mise en évidence (l'image pour le fond et la forme pour le cadre)
+      	IMG_MiseEnEvidence_Fond..Visible 	= Vrai
+      	FRM_MiseEnEvidence_Cadre..Visible 	= Vrai
+      	
+      FIN
+      
+      // Fait passer l'image, le cadre et le fond du jaune au rouge ...
+      POUR i = 0 _a_ IMG_DégradéRechRuban..Largeur-1
+      	{gsNomChampRuban, indChamp}..image 		= _RechercheRuban_DéfinitImageVolet(dPixelCouleur(IMG_DégradéRechRuban, i, 5))
+      	IMG_MiseEnEvidence_Fond..CouleurFond	= dPixelCouleur(IMG_DégradéRechRuban, i, 5)
+      	FRM_MiseEnEvidence_Cadre..Couleur		= dPixelCouleur(IMG_DégradéRechRuban, i, 5)
+      	Temporisation(0, tempoSourisEtClavier)
+      FIN
+      
+      // ... puis du rouge au jaune
+      POUR i = IMG_DégradéRechRuban..Largeur-1 _a_ 0 pas -1
+      	{gsNomChampRuban, indChamp}..Image 		= _RechercheRuban_DéfinitImageVolet(dPixelCouleur(IMG_DégradéRechRuban, i, 5))
+      	IMG_MiseEnEvidence_Fond..CouleurFond	= dPixelCouleur(IMG_DégradéRechRuban, i, 5)
+      	FRM_MiseEnEvidence_Cadre..Couleur		= dPixelCouleur(IMG_DégradéRechRuban, i, 5)
+      	Temporisation(0, tempoSourisEtClavier)
+      FIN
+      
+      // Force un rafraichissement 
+      si GR_RubanRecherche..visible = faux alors
+      	
+      	// Cache l'image et la forme de superposition
+      	IMG_MiseEnEvidence_Fond..Visible 	= Faux
+      	FRM_MiseEnEvidence_Cadre..Visible 	= Faux
+      	
+      	// Ré-applique l'image initiale de volet 
+      	{gsNomChampRuban, indChamp}..Image 	= gsImageVoletInitial
+      	
+      Fin
+     type : 458752
+   -
+     name : _RechercheRuban_SurligneTexte
+     internal_properties : CAAAAAgAAAB/avsxRcaqSwKugTRVsznrP+b18z7B9ckLCkhGVJ80z2I4nEfEDJVF7a9OpkfbdCwZHaFY3tdMzzwfyN8TlSH+uS4ha58tRE6V+SoYxIC1hkdtxbW0IuuIEZo5r+PxuzHvSZk0S1dughhDkBxl7WINBYUTO35XeA2j2iKrHB/bExCAqlO1IEq2kIupNg==
+     procedure_id : 1268745141816090094
+     type_code : 14
+     code : |1-
+      // Résumé : Formate un texte pour surligner une suite de caractères
+      // Syntaxe :
+      //[ <Résultat> = ] _RechercheRuban_SurligneTexte (<sTexteInitial> est chaîne, <sTermeRecherche> est chaîne, <sChampRéférence> est chaîne)
+      //
+      // Paramètres :
+      //	sTexteInitial (chaîne ANSI) : Texte initial
+      //	sTermeRecherche (chaîne ANSI) : Terme recherché à mettre en évidence dans le texte initial
+      //	sChampRéférence (chaîne ANSI) : Champ de référence pour récupérer la police initiale
+      // Valeur de retour :
+      // 	chaîne ANSI : Texte formaté
+      //// Traitement automatique des erreurs : RENVOYER Chaine vide "
+      //
+      
+      PROCEDURE PRIVEE _RechercheRuban_SurligneTexte(LOCAL sTexteInitial est une chaîne, LOCAL sTermeRecherche est une chaine, LOCAL sChampRéférence est une chaine)
+      
+      sTexteFinal	est une chaine
+      nPosDeb		est un entier
+      
+      
+      // Mémorise le texte initial
+      sTexteFinal = sTexteInitial
+      
+      // Recherche chaque occurrence du terme
+      nPosDeb = position(sTexteFinal, sTermeRecherche, 1, SansCasse)
+      si nPosDeb > 0
+      
+      	// Formate cette partie de texte
+      	sTexteFinal = rtfselection(sTexteFinal, rtfCouleurFond, JauneClair, nPosDeb, Taille(sTermeRecherche))
+      
+      FIN
+      
+      // Applique la police (nom et taille) du champ référence
+      sTexteFinal = RTFSélection(sTexteFinal, rtfNomPolice, 		{sChampRéférence, indChamp}..PoliceNom, 	1, Taille(sTexteFinal))
+      sTexteFinal = RTFSélection(sTexteFinal, rtfTaillePolice, 	{sChampRéférence, indChamp}..PoliceTaille, 	1, Taille(sTexteFinal))
+      
+      
+      // Texte formaté
+      renvoyer sTexteFinal
+     type : 458752
+   -
+     name : _RechercheRuban_AfficheResultat
+     internal_properties : CAAAAAgAAACrosG+d3EmDUVv2d0UAzOLeguOzyE5c5JAyx+nJcJzEqJUC7kuJztwzWMqNgCASXLosHHUhfr7rb2cJTFxD614S5D5EKZtaAqIURg0PcmCQjUZ74XVjI2vw24RYuDlIePQYruXrzBsQb2Fk7Ic39SIuCNYSmycrnDLiTNHsOYc
+     procedure_id : 1268757459786670086
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche les résultats d'une recherche 
+      // Syntaxe :
+      //_RechercheRuban_AfficheResultat ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //// Procédure automatique :
+      // La procédure est exécutée manuellement, lors d'un appel dans le code, avec un différé de 1 centièmes de seconde
+      // 
+      
+      PROCEDURE _RechercheRuban_AfficheResultat()
+      
+      sLibelleFormaté 	est une chaine
+      sBulleFormatée 		est une chaine
+      
+      
+      // Supprime tous les champs de la recherche précédente
+      SupprimeTout(gtabElementsRubanRech)
+      
+      // Vide la zone répétée
+      ZoneRépétéeSupprimeTout(ZR_ResultatRecherche)
+      
+      // Pour chaque champ du ruban
+      POUR TOUT element stUnChamp de gtabElementsRuban
+      	
+      	// Si le terme de la recherche est présent pour ce champ
+      	SI Position(stUnChamp.sTexteRecherche, SAI_RechercheCommandeRuban, 1, SansCasse) > 0 ALORS
+      		
+      		// Il ne faut prendre en compte que les éléments visibles
+      		Si _RechercheRuban_ElementEstVisible(stUnChamp) alors
+      			
+      			// Mémorise ce champ comme résultat de recherche
+      			Ajoute(gtabElementsRubanRech, stUnChamp)
+      			
+      			// Formate le libellé (pour mettre en évidence le terme recherché)
+      			sLibelleFormaté = _RechercheRuban_SurligneTexte(stUnChamp.sLibellé, SAI_RechercheCommandeRuban, LIB_LibelléChamp..NomComplet)
+      			
+      			// Formate la bulle (pour mettre en évidence le terme recherché)
+      			sBulleFormatée = _RechercheRuban_SurligneTexte(stUnChamp.sBulleAide, SAI_RechercheCommandeRuban, LIB_BulleAideChamp..NomComplet)
+      			
+      			// Ajoute une ligne dans la zone répétée
+      			ZoneRépétéeAjouteLigne(ZR_ResultatRecherche, sLibelleFormaté, sBulleFormatée, stUnChamp.sCheminAccesRuban)
+      			
+      		FIN
+      		
+      	FIN
+      	
+      FIN
+      
+      // Ne rien sélectionner par défaut
+      ZoneRépétéeSelectMoins(ZR_ResultatRecherche)
+      
+      // Modifie la hauteur en fonction du nombre de résultat
+      nNbLigne est un entier 			= min(ZR_ResultatRecherche..Occurrence, 5)
+      // La hauteur du champ Zone répétée correspond à la hauteur d'une ligne + 1 (pour le trait de séparation) * le nombre de lignes à afficher (5 max)
+      ZR_ResultatRecherche..Hauteur 	= (ZR_ResultatRecherche..HauteurLigne+1) * nNbLigne
+      // La hauteur du champ Image de fond correspond à sa hauteur initiale + la hauteur occupée par les lignes supplémentaires de la zone répétée
+      IMG_FondRecherche..Hauteur 		= IMG_FondRecherche..HauteurInitiale + (ZR_ResultatRecherche..HauteurLigne+1) * (nNbLigne-1)
+     type : 458752
+   -
+     name : _RechercheRuban_Initialise
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1269785125192230482
+     type_code : 14
+     code : |1-
+      // Résumé : Charge tous les champs d'un ruban
+      // Syntaxe :
+      //[ <Résultat> = ] _RechercheRuban_Initialise ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si le chargement est correct, Faux autrement
+      //
+      // Traitement automatique des erreurs : RENVOYER FAUX
+      //
+      
+      PROCEDURE PRIVE _RechercheRuban_Initialise() : booleen
+      
+      stUnElement 			est un STElementRuban
+      sNomRegroupement 		est une chaine
+      sNomChamp				est une chaine
+      sLibelléVolet			est une chaine
+      sLibelléRegroupement	est une chaine
+      sLibelléChamp			est une chaine
+      
+      
+      // Le nom du champ Ruban doit être correct
+      si champexiste(gsNomChampRuban) = faux alors
+      	erreurconstruit("Le nom du champ ruban renseigné (""%1"") est invalide." +RC+ "Vous devez renseigner la variable gsNomChampRuban du modèle de fenêtres", gsnomchampruban)
+      	renvoyer faux
+      FIN
+      
+      // Vide la mémorisation précédente
+      supprimetout(gtabElementsRuban)
+      supprimetout(gtabElementsRubanRech)
+      
+      // Parcourt les volets du ruban
+      POUR nIndiceVolet = 1 _a_ {gsNomChampRuban, indchamp}..Occurrence
+      	
+      	// Mémorise le libellé du volet (ou l'indice du volet si le libellé est vide)
+      	sLibelléVolet = ({gsNomChampRuban, indChamp}[nIndiceVolet]..Libellé <> "" ? {gsNomChampRuban, indChamp}[nIndiceVolet]..Libellé SINOn nIndiceVolet)
+      	
+      	// Mémorise le volet comme un champ du ruban
+      	VariableRAZ(stUnElement)
+      	stUnElement.sNomCompletChamp 	= nIndiceVolet
+      	stUnElement.sLibellé 			= sLibelléVolet
+      	stUnElement.sBulleAide 			= {gsNomChampRuban, indChamp}[nIndiceVolet]..Bulle
+      	stUnElement.sTexteRecherche 	= stUnElement.sLibellé +" "+ stUnElement.sBulleAide
+      	stUnElement.sCheminAccesRuban 	= ChaîneConstruit("Ruban >>> Volet ""%1""", sLibelléVolet)
+      	stUnElement.nIndiceVolet 		= nIndiceVolet
+      	stUnElement.eType				= eltVolet
+      	Ajoute(gtabElementsRuban, stUnElement)
+      	
+      	// Parcourt les regroupements du volet
+      	sNomRegroupement = EnumèreSousElément(gsNomChampRuban+"."+nIndiceVolet, enumPremier)
+      	TANTQUE sNomRegroupement <> ""
+      		
+      		// Si l'élément n'est pas un regroupement
+      		si {sNomRegroupement, indchamp}..type <> typRegroupementRuban alors continuer
+      		
+      		// Mémorise le libellé du regroupement (ou le nom du regroupement si le libellé est vide)
+      		sLibelléRegroupement = ({sNomRegroupement, indChamp}..Libellé <> "" ? {sNomRegroupement, indChamp}..Libellé SINON {sNomRegroupement, indChamp}..nom)
+      		
+      		// Mémorise le regroupement comme un champ du ruban
+      		VariableRAZ(stUnElement)
+      		stUnElement.sNomCompletChamp 	= {sNomRegroupement, indChamp}..NomComplet
+      		stUnElement.sLibellé 			= sLibelléRegroupement
+      		stUnElement.sBulleAide 			= {sNomRegroupement, indChamp}..Bulle
+      		stUnElement.sTexteRecherche 	= stUnElement.sLibellé +" "+ stUnElement.sBulleAide
+      		stUnElement.sCheminAccesRuban 	= ChaîneConstruit("Ruban >>> Volet ""%1"" >>> Regroupement ""%2""", sLibelléVolet, sLibelléRegroupement)
+      		stUnElement.nIndiceVolet 		= nIndiceVolet
+      		stUnElement.eType				= eltRegroupement
+      		Ajoute(gtabElementsRuban, stUnElement)
+      		
+      		// Parcourt les champs du regroupement
+      		sNomChamp = EnumèreSousElément(gsNomChampRuban+"."+nIndiceVolet+"."+sNomRegroupement, enumPremier)
+      		TANTQUE sNomChamp <> ""
+      			
+      			// Mémorise le libellé du champ (ou le nom du champ si le libellé est vide)
+      			sLibelléChamp = ({sNomChamp, indChamp}..Libellé <> "" ? {sNomChamp, indChamp}..Libellé SINON {sNomChamp, indChamp}..Nom)
+      			
+      			// Mémorise le champ
+      			VariableRAZ(stUnElement)
+      			stUnElement.sNomCompletChamp 	= {sNomChamp, indChamp}..NomComplet
+      			stUnElement.sLibellé 			= {sNomChamp, indChamp}..Libellé
+      			stUnElement.sBulleAide 			= {sNomChamp, indChamp}..Bulle
+      			stUnElement.sTexteRecherche 	= stUnElement.sLibellé +" "+ stUnElement.sBulleAide
+      			stUnElement.sCheminAccesRuban 	= ChaîneConstruit("Ruban >>> Volet ""%1"" >>> Regroupement ""%2"" >> Champ ""%3"" ", sLibelléVolet, sLibelléRegroupement, sLibelléChamp)
+      			stUnElement.eType				= eltChamp
+      			stUnElement.nIndiceVolet 		= nIndiceVolet
+      			stUnElement.sRegroupementParent	= {sNomRegroupement, indChamp}..NomComplet
+      			Ajoute(gtabElementsRuban, stUnElement)
+      			
+      			// Champ suivant
+      			sNomChamp = EnumèreSousElément(gsNomChampRuban+"."+nIndiceVolet+"."+sNomRegroupement, enumVolet)	
+      			
+      		FIN
+      		
+      		CONTINUER :
+      		// Regroupement suivant
+      		sNomRegroupement = EnumèreSousElément(gsNomChampRuban+"."+nIndiceVolet, enumVolet)	
+      		
+      	FIN
+      	
+      FIN
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Supprime les RC des libellés utilisés dans la zone répétée (remplacés par un espace)
+      POUR TOUT ELEMENT stUnElement DE gtabElementsRuban
+      	stUnElement.sBulleAide 		= chaineformate(Remplace(stUnElement.sBulleAide, RC, " "), 			ccsansespace)
+      	stUnElement.sLibellé 			= chaîneFormate(Remplace(stUnElement.sLibellé, RC, " "), 			ccSansEspace)
+      	stUnElement.sCheminAccesRuban = chaîneFormate(Remplace(stUnElement.sCheminAccesRuban, RC, " "), 	ccSansEspace)
+      FIN
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Positionne les champs de recherche en hauteur en fonction du ruban 
+      IMG_FondRecherche..Y 			= {gsNomChampRuban, indchamp}..Y + {gsNomChampRuban, indChamp}..hauteur
+      SAI_RechercheCommandeRuban..Y 	= IMG_FondRecherche..Y + 2
+      BTN_FermeRechercheRuban..Y 		= IMG_FondRecherche..Y + 2
+      ZR_ResultatRecherche..Y 		= IMG_FondRecherche..Y + 27
+      
+      //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // Mémorise l'image du ruban (chemin fichier)
+      gsImageVoletInitial 			= {gsNomChampRuban, indchamp}..image
+      // Charge dans une variable Image
+      MonImage est une image 			= gsImageVoletInitial
+      // Affiche l'image initiale dans un champ
+      IMG_ImageVolet 					= gsImageVoletInitial
+      // Positionne les dimensions des champs temporaires
+      // (ces champs permettront de créer des images de volets en fonction de couleurs données pour mettre en évidence le volet lors de la recherche)
+      IMG_ImageVolet..Largeur 		= max(1, MonImage ..Largeur)
+      IMG_ImageVolet..Hauteur 		= max(1, MonImage ..Hauteur)
+      IMG_ImageVoletFinal..Largeur 	= max(1, MonImage..Largeur)
+      IMG_ImageVoletFinal..Hauteur 	= max(1, MonImage..Hauteur)
+      
+      
+      // Chargement effectué
+      renvoyer vrai
+     type : 458752
+   -
+     name : _RechercheRuban_ElementEstVisible
+     internal_properties : CAAAAAgAAAA++nM8PpfNqbt/to12fscnDO3nlstkwBCOMMAzThgWx3ZlZssnUydsFpreVfPizkuvyr4/YXAhb2wf5AAD8Sh2FBKcAJ9LUfO1ChaPcdaefGPakp/Sr/kHB4BXAS6EA/2uMSTJkBatLKmBbAtC6qA3veTDDW8u6QrvL1GTHoxHdWVjKnAsk8t+eqNfbZk=
+     procedure_id : 1269830548764280790
+     type_code : 14
+     code : |1+
+      // Résumé : Détermine si un élément est visible ou non
+      // Syntaxe :
+      //[ <Résultat> = ] _RechercheRuban_ElementEstVisible (<stUnElement> est STElementRuban)
+      //
+      // Paramètres :
+      //	stUnElement (STElementRuban) : Nom complet de l'élément
+      // Valeur de retour :
+      // 	booléen : Vrai si l'élément est visible, Faux autrement
+      //// Traitement automatique des erreurs : RENVOYER FAUX
+      //
+      
+      PROCEDURE PRIVEE _RechercheRuban_ElementEstVisible(LOCAL stUnElement est un STElementRuban) : booleen
+      
+      // Quel que soit le type de l'élément, il faut que le volet soit visible
+      SI {gsNomChampRuban, indChamp}[stUnElement.nIndiceVolet]..Visible = Faux ALORS RENVOYER Faux
+      
+      quand exception dans
+      	
+      	// Selon le type de l'élément
+      	selon stUnElement.eType
+      		// Volet
+      		CAS eltVolet
+      			// Le cas du volet invisible est traité sur la première ligne de code
+      			renvoyer vrai
+      			
+      		// Regroupement
+      		CAS eltregroupement			
+      			// Renvoie	la visibilité du regroupement 
+      			renvoyer {stUnElement.sNomCompletChamp, indChamp}..Visible
+      		
+      		// Champ
+      		CAS eltchamp
+      			// Il faut que le regroupement soit visible
+      			si {stUnElement.sregroupementparent, indchamp}..visible = faux alors renvoyer faux
+      				
+      			// Renvoie	la visibilité du champ 
+      			RENVOYER {stUnElement.sNomCompletChamp, indChamp}..Visible
+      		
+      		// Inconnu
+      		autres cas
+      		dbgassertion(faux, "Type d'élément inconnu")
+      	
+      	FIN
+      	
+      	// Si rien n'est trouvé, renvoie Faux
+      	renvoyer faux
+      	
+      FAIRE
+      	renvoyer faux
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1fc796d918225419
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
